@@ -12,5 +12,9 @@ export class RecipeDetailComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  isManaged:boolean = false;
+  /*toggleManager(){
+    this.isManaged = !this.isManaged;
+  }
+  */
 }
